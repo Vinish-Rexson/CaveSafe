@@ -1,0 +1,215 @@
+.mac-book-air-3,
+.mac-book-air-3 * {
+  box-sizing: border-box;
+}
+.mac-book-air-3 {
+  background: #ffffff;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-21 {
+  background: #e9a41d;
+  border-radius: 14.96px;
+  width: 344px;
+  height: 50.31px;
+  position: absolute;
+  left: calc(50% - 148px);
+  top: calc(50% - -278px);
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 19.97321319580078px;
+  font-weight: 400;
+  position: absolute;
+  right: 30px;
+  top: 13px;
+}
+.explore {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 18.83796501159668px;
+  font-weight: 400;
+  position: absolute;
+  right: 107px;
+  top: 14px;
+}
+.cave-safe {
+  color: #000000;
+  text-align: left;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-size: 21.7407283782959px;
+  font-weight: 400;
+  position: absolute;
+  left: 29px;
+  top: 9px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: rgba(124, 71, 0, 0.85);
+  border-width: 0.5px 0 0 0;
+  width: 1280px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 369.93px);
+  transform-origin: 0 0;
+  transform: rotate(-0.003deg) scale(1, 1);
+}
+.oip-2 {
+  border-radius: 12px;
+  width: 313px;
+  height: 180px;
+  position: absolute;
+  left: calc(50% - 576px);
+  top: calc(50% - 307px);
+  object-fit: cover;
+}
+.kolar-gold-field {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 87px);
+  top: calc(50% - 353px);
+  width: 260px;
+  height: 31px;
+  font-family: monospace;
+  
+}
+.oip-3 {
+  border-radius: 12px;
+  width: 308px;
+  height: 180px;
+  position: absolute;
+  left: calc(50% - 148px);
+  top: calc(50% - 307px);
+  object-fit: cover;
+}
+.oip-4 {
+  border-radius: 12px;
+  width: 308px;
+  height: 180px;
+  position: absolute;
+  left: calc(50% - -275px);
+  top: calc(50% - 307px);
+  object-fit: cover;
+}
+.location-geetha-road-kolar-gold-field-karnataka-563122 {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 326px;
+  width: 821.33px;
+  height: 32px;
+}
+.area-58-12-square-kilometers-22-44-square-miles {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 375px;
+  width: 699px;
+  height: 32px;
+}
+.depth-3000-meters {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 425px;
+  width: 282px;
+  height: 32px;
+}
+.daily-visitors-low {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 474px;
+  width: 821.33px;
+  height: 32px;
+}
+.minerals-gold {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 576px;
+  width: 221px;
+  height: 32px;
+}
+.emergency-help-hospital-available-within-1-km {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 625px;
+  width: 674px;
+  height: 32px;
+}
+.danger-level-3-5 {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Medium", sans-serif;
+  font-size: 28.44444465637207px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 525px;
+  width: 263px;
+  height: 32px;
+}
+.start-journey {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Arimo-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 83px);
+  top: calc(50% - -283px);
+  width: 214px;
+  height: 31px;
+  background-color: #e9a41d;
+}
+.whistlesafe {
+  color: #1c0d0d;
+  text-align: left;
+  font-family: "PublicSans-Bold", sans-serif;
+  font-size: 16.588090896606445px;
+  line-height: 20.74px;
+  font-weight: 700;
+  position: absolute;
+  left: 18.22px;
+  top: 18.35px;
+}     
+.text{
+  font-family: 'Courier New', Courier, monospace;
+  width: 1100px;
+
+}

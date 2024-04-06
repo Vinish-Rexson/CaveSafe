@@ -1,0 +1,125 @@
+{% extends 'base.html' %} 
+{% block title %}Profile{% endblock title %} 
+{% block body %}
+<h1 class="text-center">Profile</h1>
+
+<div class="container mt-2">
+  {% for message in messages %}
+
+  <div
+    class="alert alert-{{message.tags}} alert-dismissible fade show"
+    role="alert"
+  >
+    <strong>{{message}}</strong>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+  </div>
+  {% endfor %}
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <form action="/profile" method="post">
+        {% csrf_token %}
+        <br />
+
+        <label for="name">Full Name</label>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control p-2"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <label for="image">Upload your image: </label>
+        <div class="form-group">
+          <input 
+            type="file" 
+            id="img" 
+            name="img" 
+            accept="image/*" />
+        </div>
+        <label for="dob">Date of Birth: </label>
+        <div class="form-group">
+          <input 
+            type="date" 
+            id="dob" 
+            name="dob" />
+        </div>
+        <label for="phone_no">Phone Number</label>
+        <div class="form-group">
+          <input
+            type="Number"
+            class="form-control p-2"
+            id="phone_no"
+            name="phone_no"
+            required
+            />
+        <label for="address">Address</label>
+        <div class="form-group">
+          <Textarea
+            type="text"
+            class="form-control p-2"
+            id="address"
+            name="address"
+            required></Textarea>
+        </div>
+        </div>
+        <label for="allergies">Allergies</label>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control p-2"
+            id="allergies"
+            name="allergies"
+            required
+          />
+        </div>
+        <label for="current_medications">Current Medications</label>
+        <div class="form-group">
+          <Textarea
+            type="text"
+            class="form-control p-2"
+            id="current_medications"
+            name="current_medications"
+            required></Textarea>
+        </div>
+
+        <label for="blood_group">Blood Group</label>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control p-2"
+            id="blood_group"
+            name="blood_group"
+            required
+          />
+        </div>
+        
+        <label for="desc">Addition Descriptions (if any)</label>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control p-2"
+            id="desc"
+            name="desc"
+            required
+          />
+        </div>
+        <br />
+        <button type="submit" class="btn btn-dark">Submit</button>
+
+        <br />
+        <br />
+        <br />
+      </form>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
+{% endblock body %}

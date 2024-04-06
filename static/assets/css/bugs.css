@@ -1,0 +1,291 @@
+.mac-book-air-4,
+.mac-book-air-4 * {
+  box-sizing: border-box;
+}
+.mac-book-air-4 {
+  background: #ffffff;
+  height: 898px;
+  position: relative;
+  overflow: hidden;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 19.97321319580078px;
+  font-weight: 400;
+  position: absolute;
+  right: 30px;
+  top: 13px;
+}
+.explore {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 18.83796501159668px;
+  font-weight: 400;
+  position: absolute;
+  right: 107px;
+  top: 14px;
+}
+.cave-safe {
+  color: #000000;
+  text-align: left;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-size: 21.7407283782959px;
+  font-weight: 400;
+  position: absolute;
+  left: 29px;
+  top: 9px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: rgba(124, 71, 0, 0.85);
+  border-width: 0.5px 0 0 0;
+  width: 1280px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 459.93px);
+  transform-origin: 0 0;
+  transform: rotate(-0.003deg) scale(1, 1);
+}
+.safety-guide {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Bold", sans-serif;
+  font-size: 30.459491729736328px;
+  line-height: 38.07px;
+  font-weight: 700;
+  position: absolute;
+  left: 77px;
+  top: 59.96px;
+}
+.know-the-animals-insects-and-dangerous-paths-in-caves {
+  color: #4f4f96;
+  text-align: left;
+  font-family: "Epilogue-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 78px;
+  top: 105px;
+}
+.animals-and-insects {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 700;
+  position: absolute;
+  left: 77px;
+  top: 158px;
+}
+.dangerous-and-closed-paths {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 700;
+  position: absolute;
+  left: 78px;
+  top: 609px;
+}
+.depth-7-frame-0 {
+  border-radius: 10.55px;
+  width: 196px;
+  height: 196px;
+  position: absolute;
+  left: 77px;
+  top: 195px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-7-frame-02 {
+  border-radius: 10.49px;
+  width: 195px;
+  height: 195px;
+  position: absolute;
+  left: 359px;
+  top: 195px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-7-frame-03 {
+  border-radius: 10.49px;
+  width: 195px;
+  height: 195px;
+  position: absolute;
+  left: 640px;
+  top: 195px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.centipedes {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 640px;
+  top: 413px;
+  width: 102px;
+}
+.depth-7-frame-04 {
+  border-radius: 10.49px;
+  width: 195px;
+  height: 195px;
+  position: absolute;
+  left: 921px;
+  top: 196px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.bats {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 77px;
+  top: 413px;
+  width: 49px;
+}
+.snake-bite-3-poeple-reported-in-last-month-fungus-infection-15-case-reported-within-3-months-bat-sting-2-case-reported-in-a-month {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 78px;
+  top: 500px;
+  width: 457px;
+}
+.rats {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 362px;
+  top: 413px;
+  width: 51px;
+}
+.kgf-mine-root-5-root-5-has-been-permanently-closed-due-to-infectious-insect-detected {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 369px;
+  top: 676px;
+  width: 417px;
+}
+.cockroaches {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 921px;
+  top: 413px;
+  width: 115px;
+}
+.recent-incidents {
+  color: #0d0d1c;
+  text-align: left;
+  font-family: "Epilogue-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 700;
+  position: absolute;
+  left: 78px;
+  top: 466px;
+  width: 161px;
+  height: 23px;
+}
+.oip-5 {
+  border-radius: 12px;
+  width: 231.37px;
+  height: 146px;
+  position: absolute;
+  left: 77px;
+  top: 648px;
+  object-fit: cover;
+}
+.rectangle-25 {
+  background: #e9a41d;
+  border-radius: 8px;
+  width: 569px;
+  height: 39px;
+  position: absolute;
+  left: calc(50% - 285px);
+  top: calc(50% - -383px);
+}
+.i-acknowledge-will-be-responsible-for-any-problem {
+  color: #000000;
+  text-align: center;
+  font-family: "Epilogue-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 265px);
+  top: calc(50% - -392px);
+  width: 538px;
+  height: 23px;
+}
+.gi1{
+  background-image: url("gal1.jpg");
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  background-size: cover;
+
+}
+
+.gb1{
+  position: absolute;
+  z-index: 5;
+  transition: 0.3s;
+  width: 300px;
+  height: 300px;
+  transform: translateY(100%);
+  text-align: center;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+.gb1 h1{
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: start;
+}
+.lm{
+  text-align:end ;
+  margin-top: 65px;
+}
+.gb1 p{
+  margin-top: 5px;
+}
+.gi1:hover .gb1{
+ transform: translateY(0%);
+ background-color: rgba(200, 200 ,0, 0.705);
+ opacity: 100%;
+}

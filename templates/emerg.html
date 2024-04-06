@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Emergency{% endblock title %}
+{% block body %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vars.css" />
+    <link rel="stylesheet" href="{% static '/assets/css/emerg.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <br>
+        <p>Click the button to get your coordinates.</p>
+  
+        <button class="btn" onclick="getLocation()">Check </button>
+  
+        <p id="demo"></p>
+  
+        <script>
+        const x = document.getElementById("demo");
+  
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else { 
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
+  
+        function showPosition(position) {
+          x.innerHTML = "Latitude: " + position.coords.latitude + 
+          "<br>Longitude: " + position.coords.longitude;
+        }
+        </script>
+      <div class="rectangle-20"></div>
+      <div class="rectangle-21"></div>
+      <div class="get-instant-support-note-your-longitude-and-latitude">
+        Get instant support (Note Your Longitude and Latitude)
+      </div>
+      <div class="line-2"></div>
+      <img class="phone-in-talk" src="{% static '/images/phone-in-talk0.svg' %}" />
+      <div class="press-for-urgent-medical-help">
+        Press for urgent medical help
+      </div>
+      <a href="tel:109"><div class="press-for-direct-chat-with-agent-help">
+        Press for Direct Chat with agent help
+      </div></a>
+      <a href="tel:109"><div class="nearest-hospital">(Nearest Hospital)</div></a>
+      <a href="chat"><div class="theft-injury-report-incident">
+        (theft,injury,report incident...)
+      </div></a>
+      <img class="chat" src="{% static '/images/chat0.svg' %}" />
+{% endblock body %}
