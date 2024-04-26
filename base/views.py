@@ -4,6 +4,7 @@ from math import ceil
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from .models import Profile
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
@@ -50,8 +51,17 @@ def emerg(request):
 def chat(request):
     return render(request, "chat.html")
 
-
+@login_required(login_url="/login")
 def profile(request):
+    id = request.user.id
+    if request.method == "GET":
+        data = Profile.objects.filter(user_id=id).exists()
+        print(data)
+        if data :
+            return redirect("/home")
+        else:
+            data={'id':id,}
+            return render(request, "form.html", data)
     if request.method == "POST":
         name = request.POST.get("name")
         image = request.POST.get("image")
@@ -62,6 +72,7 @@ def profile(request):
         current_medications = request.POST.get("current_medications")
         blood_group = request.POST.get("blood_group")
         desc = request.POST.get("desc")
+        user_id = request.POST.get("user_id")
 
         Comp_Pro = Profile(
             name=name,
@@ -73,9 +84,9 @@ def profile(request):
             allergies=allergies,
             current_medications=current_medications,
             blood_group=blood_group,
+            user_id=user_id,
         )
         Comp_Pro.save()
         messages.info(request, "Profile Completed")
         return redirect("/home")
-
-    return render(request, "form.html")
+    
