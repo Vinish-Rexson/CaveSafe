@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Kgf{% endblock title %}
+{% block body %}
+<br>
+<br>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vars.css" />
+    <link rel="stylesheet" href="{% static '/assets/css/kgf.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <div class="line-1"></div>
+    <img class="oip-2" src="{% static '/images/oip-20.png' %}" />
+      <div class="kolar-gold-field">Kolar Gold Field</div>
+    <img class="oip-3" src="{% static '/images/oip-30.png' %}" />
+    <img class="oip-4" src="{% static '/images/oip-40.png' %}" />
+      <div class="location-geetha-road-kolar-gold-field-karnataka-563122 text">
+        Location :- Geetha Road, Kolar Gold Field, Karnataka 563122
+      </div>
+      <div class="container2"><div class="area-58-12-square-kilometers-22-44-square-miles text">
+        Area:- 58.12 square kilometers (22.44 square miles)
+      </div>
+      <div class="depth-3000-meters text">Depth :- 3000 meters</div>
+      <div class="daily-visitors-low text">Daily visitors :- Low</div>
+      <div class="minerals-gold text">Minerals :- Gold</div>
+      <div class="emergency-help-hospital-available-within-1-km text">
+        Emergency Help :- Hospital Available within 1 km
+      </div>
+      <div class="danger-level-3-5 texts">Danger level :- 3/5</div>
+      <a href="/form"><div class="start-journey">Start Journey</div></a></div>
+      </div>
+{% endblock body %}

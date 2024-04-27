@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Bugs{% endblock title %}
+{% block body %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vars.css" />
+    <link rel="stylesheet" href="{% static '/assets/css/bugs.css' %}" />
+
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  <body>
+    <div class="mac-book-air-4">
+      <div class="line-1"></div>
+      <div class="safety-guide">Safety Guide</div>
+      <div class="know-the-animals-insects-and-dangerous-paths-in-caves">
+        Know the animals, insects and dangerous paths in caves
+      </div>
+      <div class="animals-and-insects">Animals and Insects</div>
+      <div class="dangerous-and-closed-paths">Dangerous and Closed paths</div>
+      <img class="depth-7-frame-0" src="{% static '/images/depth-7-frame-00.png' %}" />
+      <img class="depth-7-frame-02" src="{% static '/images/depth-7-frame-01.png' %}" />
+      <img class="depth-7-frame-03" src="{% static '/images/depth-7-frame-02.png' %}" />
+      <div class="centipedes">Centipedes</div>
+      <img class="depth-7-frame-04" src="{% static '/images/depth-7-frame-03.png' %}" />
+      <div class="bats">Bats</div>
+      <div
+        class="snake-bite-3-poeple-reported-in-last-month-fungus-infection-15-case-reported-within-3-months-bat-sting-2-case-reported-in-a-month"
+      >
+        Snake bite (3 poeple reported in last month)
+        <br />
+        fungus infection (15 case reported within 3 months)
+        <br />
+        Bat sting ( 2 case reported in a month)
+      </div>
+      <div class="rats">Rats</div>
+      <div
+        class="kgf-mine-root-5-root-5-has-been-permanently-closed-due-to-infectious-insect-detected"
+      >
+        KGF Mine (Root 5)
+        <br />
+        Root 5 has been permanently closed due to infectious insect detected
+      </div>
+      <div class="cockroaches">Cockroaches</div>
+      <div class="recent-incidents">Recent Incidents</div>
+      <img class="oip-5" src="{% static '/images/oip-50.png' %}" />
+      <div class="rectangle-25"></div>
+      <a href="geo"><div class="i-acknowledge-will-be-responsible-for-any-problem">
+        I ACKNOWLEDGE &amp; WILL BE RESPONSIBLE FOR ANY PROBLEM
+      </div></a>
+    </div>
+  </body>
+{% endblock body %}

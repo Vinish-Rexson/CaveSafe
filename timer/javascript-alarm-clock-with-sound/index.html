@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>JavaScript Alarm Clock Example</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- Orbitron Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+<div class="table clock-wrapper">
+  <div class="cell">
+    <h2 id="clock" class="clock"></h2>
+    
+    <select id="hours"></select>
+    <select id="minutes"></select>
+    <select id="seconds"></select>
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    
+    <p>
+      <button id="snooze" class="hide">Snooze</button>
+      <button id="startstop">Set Alarm</button>
+    </p>
+  </div>
+</div>
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+  
+<!-- Alarm Clock JS  -->
+<script  src="./js/script.js"></script>
+
+<div class="card">
+  <span id="countdown" style="font-weight: bold;"></span>
+  </div>
+  
+      
+  </body>
+</html>

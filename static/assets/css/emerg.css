@@ -1,0 +1,221 @@
+.mac-book-air-6,
+.mac-book-air-6 * {
+  box-sizing: border-box;
+}
+.mac-book-air-6 {
+  background: #ffffff;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 19.97321319580078px;
+  font-weight: 400;
+  position: absolute;
+  right: 30px;
+  top: 13px;
+}
+.explore {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 18.83796501159668px;
+  font-weight: 400;
+  position: absolute;
+  right: 107px;
+  top: 14px;
+}
+.cave-safe {
+  color: #000000;
+  text-align: left;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-size: 21.7407283782959px;
+  font-weight: 400;
+  position: absolute;
+  left: 29px;
+  top: 9px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: rgba(124, 71, 0, 0.85);
+  border-width: 0.5px 0 0 0;
+  width: 1280px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 369.93px);
+  transform-origin: 0 0;
+  transform: rotate(-0.003deg) scale(1, 1);
+}
+.rectangle-20 {
+  background: #f5f3f0;
+  border-radius: 44px;
+  border-style: solid;
+  border-color: rgba(124, 71, 0, 0.85);
+  border-width: 1px;
+  width: 330px;
+  height: 374px;
+  position: absolute;
+  left: calc(50% - 418px);
+  top: calc(50% - 148px);
+}
+.rectangle-21 {
+  background: #f5f3f0;
+  border-radius: 44px;
+  border-style: solid;
+  border-color: #7c4700;
+  border-width: 1px;
+  width: 330px;
+  height: 374px;
+  position: absolute;
+  left: calc(50% - -112px);
+  top: calc(50% - 148px);
+}
+.get-instant-support-note-your-longitude-and-latitude {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 20.74px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 375px);
+  top: 182px;
+  width: 813px;
+  height: 35px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 374px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - -12px);
+  top: calc(50% - 148px);
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.phone-in-talk {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  left: calc(50% - 287px);
+  top: calc(50% - 95px);
+  overflow: visible;
+}
+.press-for-urgent-medical-help {
+  color: #000000;
+  text-align: center;
+  font-family: "PublicSans-Light", sans-serif;
+  font-size: 25.875px;
+  line-height: 33px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - 413px);
+  top: calc(50% - -61px);
+  width: 322.88px;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.press-for-direct-chat-with-agent-help {
+  color: #000000;
+  text-align: center;
+  font-family: "PublicSans-Light", sans-serif;
+  font-size: 25.875px;
+  line-height: 33px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - -116px);
+  top: calc(50% - -61px);
+  width: 322.88px;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nearest-hospital {
+  color: #000000;
+  text-align: center;
+  font-family: "PublicSans-Light", sans-serif;
+  font-size: 25.875px;
+  line-height: 33px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - 380px);
+  top: calc(50% - 18px);
+  width: 253px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theft-injury-report-incident {
+  color: #000000;
+  text-align: center;
+  font-family: "PublicSans-Light", sans-serif;
+  font-size: 25.875px;
+  line-height: 33px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - -157px);
+  top: calc(50% - 12px);
+  width: 253px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  left: calc(50% - -243px);
+  top: calc(50% - 95px);
+  overflow: visible;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}
+
+.btn{
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 47%;
+}
+
+
+#demo {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+margin-left: 480px;
+margin-top: -53px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.whistlesafe {
+  color: #1c0d0d;
+  text-align: left;
+  font-family: "PublicSans-Bold", sans-serif;
+  font-size: 16.588090896606445px;
+  line-height: 20.74px;
+  font-weight: 700;
+  position: absolute;
+  left: 18.22px;
+  top: 18.35px;
+}     

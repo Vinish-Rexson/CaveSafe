@@ -1,0 +1,134 @@
+.rectangle-1 {
+    background: #f5f3f0;
+    border-style: solid;
+    border-color: #c9c9c9;
+    border-width: 0px 0px 0.92px 0px;
+    width: 1179.6px;
+    height: 58.98px;
+    position: absolute;
+    left: calc(50% - 590px);
+    top: 0px;
+  }
+  .cavesafe {
+    color: #1c0d0d;
+    text-align: left;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-size: 16.588090896606445px;
+    line-height: 20.74px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - 571.78px);
+    top: 18.35px;
+  }
+  .home {
+    color: #1c0d0d;
+    text-align: left;
+    font-family: "PublicSans-Medium", sans-serif;
+    font-size: 12.901848793029785px;
+    line-height: 19.35px;
+    font-weight: 500;
+    position: absolute;
+    left: calc(50% - -226.5px);
+    top: 19.35px;
+  }
+  .explore {
+    color: #1c0d0d;
+    text-align: left;
+    font-family: "PublicSans-Medium", sans-serif;
+    font-size: 12.901848793029785px;
+    line-height: 19.35px;
+    font-weight: 500;
+    position: absolute;
+    left: calc(50% - -292.86px);
+    top: 19.35px;
+  }
+  .rectangle-2 {
+    background: #e51a1a;
+    border-radius: 9.22px;
+    width: 150px;
+    height: 35.94px;
+    position: absolute;
+    left: calc(50% - -450.44px);
+    top: 11.06px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login {
+    color: #ffffff;
+    text-align: left;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-size: 19.000904083251953px;
+    line-height: 23.75px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(50% - -483.62px);
+    top: 16.59px;
+    width: 58.06px;
+    height: 22.17px;
+    margin-left: 15px;
+  }
+  .insights {
+    color: #1c0d0d;
+    text-align: left;
+    font-family: "PublicSans-Medium", sans-serif;
+    font-size: 12.901848793029785px;
+    line-height: 19.35px;
+    font-weight: 500;
+    position: absolute;
+    left: calc(50% - -377.64px);
+    top: 19.35px;
+  }
+  .report-an-incident a {
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .learn-more a{
+    color: black;
+  }
+  .home a{
+    color: #000000;
+  }
+  
+  footer{
+    background-color: #f5f3f0;
+    text-align: center;
+  }
+  .map{
+    margin-top: 90px;
+  }
+  .whistlesafe {
+    color: #1c0d0d;
+    text-align: left;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-size: 16.588090896606445px;
+    line-height: 20.74px;
+    font-weight: 700;
+    position: absolute;
+    left: 18.22px;
+    top: 18.35px;
+  }     
+
+  .rectangle-24 {
+    background: #ff4d4d;
+    width: 995px;
+    height: 103px;
+    position: absolute;
+    left: calc(50% - 496px);
+    top: calc(50% - -226px);
+    border-radius: 10px;
+  }
+  .emergency-sos-button {
+    color: #ffffff;
+    text-align: center;
+    font-family: "PublicSans-SemiBold", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    position: absolute;
+    left: calc(50% - 475px);
+    top: calc(50% - -242px);
+    width: 974px;
+    height: 74px;
+  }

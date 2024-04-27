@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+}
+
+/* background */
+body {
+
+  text-align: center;
+}
+.clock-wrapper{
+    line-height: 2;
+}
+
+/* header */
+.clock-wrapper h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+  color: #fff;
+}
+
+/* buttons */
+.clock-wrapper button {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 30px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: 0;
+  color: #fff;
+  transition: all ease 300ms;
+  margin: 10px 0;
+}
+.clock-wrapper button:hover {
+  color: #333;
+  background: #fff;
+  
+}
+
+/* center content vertically and horizontally */
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+}
+
+/* variable misc classes */
+.hide {
+  display: none;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Montserrat', sans-serif;
+}
+.card {
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px -5px #909090;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#countdown {
+  font-size: 48px;
+}

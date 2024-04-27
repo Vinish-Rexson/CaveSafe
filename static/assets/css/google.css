@@ -1,0 +1,91 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body.map {
+    height: 300px;
+    margin: 40px;
+    padding: 0;
+  }
+
+  .mac-book-air-5,
+.mac-book-air-5 * {
+  box-sizing: border-box;
+}
+.mac-book-air-5 {
+  background: #ffffff;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 19.97321319580078px;
+  font-weight: 400;
+  position: absolute;
+  right: 30px;
+  top: 13px;
+}
+.explore {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 18.83796501159668px;
+  font-weight: 400;
+  position: absolute;
+  right: 107px;
+  top: 14px;
+}
+.cave-safe {
+  color: #000000;
+  text-align: left;
+  font-family: "KumbhSans-Regular", sans-serif;
+  font-size: 21.7407283782959px;
+  font-weight: 400;
+  position: absolute;
+  left: 29px;
+  top: 9px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: rgba(124, 71, 0, 0.85);
+  border-width: 0.5px 0 0 0;
+  width: 1280px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 640px);
+  top: calc(50% - 369.93px);
+  transform-origin: 0 0;
+  transform: rotate(-0.003deg) scale(1, 1);
+}
+.rectangle-24 {
+  background: #ff4d4d;
+  width: 995px;
+  height: 103px;
+  position: absolute;
+  left: calc(50% - 496px);
+  top: calc(50% - -226px);
+  border-radius: 10px;
+}
+.emergency-sos-button {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PublicSans-SemiBold", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 475px);
+  top: calc(50% - -242px);
+  width: 974px;
+  height: 74px;
+}
