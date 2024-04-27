@@ -58,7 +58,7 @@ def profile(request):
         data = Profile.objects.filter(user_id=id).exists()
         print(data)
         if data :
-            return redirect("/home")
+            return redirect("/geo")
         else:
             data={'id':id,}
             return render(request, "form.html", data)
@@ -88,5 +88,5 @@ def profile(request):
         )
         Comp_Pro.save()
         messages.info(request, "Profile Completed")
-        return redirect("/home")
+        return redirect("/geo")
     

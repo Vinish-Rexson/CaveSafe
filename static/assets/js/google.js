@@ -10,14 +10,14 @@ const options = {
   };
   
   function success(pos) {
+    initMap()
     const crd = pos.coords;
-  
-    console.log("Your current position is:");
     longitude = crd.longitude;
     latitude = crd.latitude;
-    console.log(`Latitude : ${latitude}`);
-    console.log(`Longitude: ${longitude}`);
-    console.log(`More or less ${crd.accuracy} meters.`);
+    // console.log("Your current position is:");
+    // console.log(`Latitude : ${latitude}`);
+    // console.log(`Longitude: ${longitude}`);
+    // console.log(`More or less ${crd.accuracy} meters.`);
   }
   
   function error(err) {
@@ -41,7 +41,3 @@ async function initMap() {
     title: "current",
   });
 }
-
-setTimeout(initMap,10000)
-
-initMap();
